@@ -82,3 +82,75 @@ CRITICAL - 2022-02-25 11:42:33 --> Class "App\Controllers\mUsuarios" not found
 #2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2022-02-25 11:53:00 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess.php', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(25): view('vSuccess.php', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 11:59:26 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(25): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 11:59:47 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(25): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 12:02:39 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(25): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 12:02:41 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(25): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 12:11:33 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(28): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 12:31:21 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(28): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 12:31:26 --> Invalid file: vSuccess.php
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vSuccess.php')
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('vSuccess', Array, true)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(28): view('vSuccess', Array)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
