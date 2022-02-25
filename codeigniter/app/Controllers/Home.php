@@ -13,5 +13,8 @@ class Home extends BaseController
         return view('vBienvenida.php');
     }
 
+    public function registro(){
+        return view('vRegistro');
+    }
 
 }
