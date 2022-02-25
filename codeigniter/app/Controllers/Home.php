@@ -20,7 +20,7 @@ class Home extends BaseController
             "password" => $_POST['password'];
         ];
         $mUsuarios->insert($usuarioNuevo);
-        $datoId['idRegistrado']=$mUsuarios->db->insertID():
+        $datoId['idRegistrado']=$mUsuarios->db->insertID();
 
         return view("vSuccess", $datoId);
     }
