@@ -25,7 +25,5 @@ class Home extends BaseController
         return view("vSuccess", $datoId);
     }
 
-
-
-
 }
+?>

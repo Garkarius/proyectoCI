@@ -28,3 +28,33 @@ CRITICAL - 2022-02-25 04:04:03 --> syntax error, unexpected ';', expecting ']'
 #6 C:\xampp\htdocs\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2022-02-25 11:11:48 --> Class "App\Controllers\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 11:26:54 --> Class "App\Controllers\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 11:26:57 --> Class "App\Controllers\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 11:27:14 --> Class "App\Controllers\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 11:27:27 --> Class "App\Controllers\mUsuarios" not found
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->insertarForm()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
