@@ -16,8 +16,8 @@ class Home extends BaseController
     public function insertarForm(){
         $mUsuarios = new mUsuarios();
         $usuarioNuevo = [
-            "usuario" => $_POST['email'];
-            "password" => $_POST['password'];
+            "usuario" => $_POST['email'],
+            "password" => $_POST['password']
         ];
         $mUsuarios->insert($usuarioNuevo);
         $datoId['idRegistrado']=$mUsuarios->db->insertID();
