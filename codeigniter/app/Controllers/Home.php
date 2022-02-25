@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-
+use App\Models\mUsuarios;
 class Home extends BaseController
 {
     public function index()
