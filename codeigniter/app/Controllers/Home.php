@@ -22,7 +22,7 @@ class Home extends BaseController
         $mUsuarios->insert($usuarioNuevo);
         $datoId['idRegistrado']=$mUsuarios->db->insertID();
 
-        return view("vSuccess", $datoId);
+        return view("vSuccess.php", $datoId);
     }
 
 }
