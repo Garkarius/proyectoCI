@@ -9,12 +9,8 @@ class Home extends BaseController
         return view('welcome_message');
     }
 
-    public function binvenida(){
-        return view('vBienvenida.php');
-    }
-
     public function registro(){
-        return view ('vRegistro');
+        return view ('vRegistro.php');
     }
 
     public function insertarForm(){
