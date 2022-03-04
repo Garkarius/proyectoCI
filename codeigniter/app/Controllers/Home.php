@@ -13,6 +13,10 @@ class Home extends BaseController
         return view ('vRegistro.php');
     }
 
+    public function ingreso(){
+        return view ('vIngreso');
+    }
+
     public function insertarForm(){
         $mUsuarios = new mUsuarios();
         $usuarioNuevo = [
@@ -23,6 +27,11 @@ class Home extends BaseController
         $datoId['idRegistrado']=$mUsuarios->db->insertID();
 
         return view("vSuccess", $datoId);
+    }
+
+    public function buscarRegistro(){
+        $mUsuarios = new mUsuarios();
+        
     }
 
 }
