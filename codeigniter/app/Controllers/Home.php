@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Controllers;
-
+use App\Models\mUsuarios;
 class Home extends BaseController
 {
     public function index()
@@ -10,7 +10,7 @@ class Home extends BaseController
     }
 
     public function registro(){
-        return view ('vRegistro.php');
+        return view ('vRegistro');
     }
 
     public function ingreso(){
@@ -19,12 +19,15 @@ class Home extends BaseController
 
     public function insertarForm(){
         $mUsuarios = new mUsuarios();
+        
         $usuarioNuevo = [
             "usuario" => $_POST['email'],
             "password" => $_POST['password']
         ];
-        $mUsuarios->insert($usuarioNuevo);
-        $datoId['idRegistrado']=$mUsuarios->db->insertID();
+
+        $mUsuarios -> insert($usuarioNuevo);
+        
+        $datoId['idRegistrado'] = $mUsuarios -> db -> insertID();
 
         return view("vSuccess", $datoId);
     }
