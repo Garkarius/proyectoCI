@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <title>Ingreso</title>
@@ -14,6 +13,7 @@
             <br><br>
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
+            <br>
             <button type="submit">Ingresar</button>
         </form>
     </div>

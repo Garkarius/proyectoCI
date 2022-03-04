@@ -1,0 +1,49 @@
+ERROR - 2022-03-04 09:44:39 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2022-03-04 09:44:39 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-04 09:47:12 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2022-03-04 09:47:12 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(37): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->mostrarRegistros()
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-04 10:06:10 --> Unknown column 'usuario.deleted_at' in 'where clause'
+CRITICAL - 2022-03-04 10:06:10 --> Unknown column 'usuario.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-04 10:29:20 --> Undefined array key "email"
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
