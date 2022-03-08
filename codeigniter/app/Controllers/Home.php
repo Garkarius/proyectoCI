@@ -44,7 +44,7 @@ class Home extends BaseController
         $mUsuarios = new mUsuarios();
         $usuario = $_POST['email'];
         $password = $_POST['password'];
-        $user = $mUsuarios->where('usuario', $usuario)->where('password', $password)->first();
+        $user = $mUsuarios -> where('usuario', $usuario) -> where('password', $password) -> first();
         
         return view("vIngresado", $user);
     }
