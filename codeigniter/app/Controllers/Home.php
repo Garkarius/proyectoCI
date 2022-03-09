@@ -65,5 +65,13 @@ class Home extends BaseController
         return $this -> mostrarRegistros();
     }
 
+    public function eliminarRegistro($id){
+        $mUsuarios = new mUsuarios();
+        $id_usuario = $id;
+        $mUsuarios-> delete($id_usuario);
+        
+        return $this->mostrarRegistros();
+    }
+
 }
 ?>

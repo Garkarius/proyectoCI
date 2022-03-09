@@ -14,6 +14,7 @@
                     <th>ID</th>
                     <th>USUARIO</th>
                     <th>Contraseña</th>
+                    <th>Eliminar</th>
                 </tr>
             </thread>
             <tbody>
@@ -22,6 +23,8 @@
                     <td><?php echo $usuario['id_usuario']; ?></td>
                     <td><?php echo $usuario['usuario']; ?></td>
                     <td><?php echo $usuario['password']; ?></td>
+                    <td><a type="button" href="<?php echo base_url();?>/Home/eliminarRegistro/<?php echo $usuario['id_usuario']; ?>">Eliminar</a>
+                    </td>
                 </tr>
                 <?php } ?>
             </tbody>
