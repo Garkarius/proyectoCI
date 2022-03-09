@@ -47,3 +47,55 @@ CRITICAL - 2022-03-04 10:29:20 --> Undefined array key "email"
 #3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 {main}
+ERROR - 2022-03-04 11:47:51 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-04 11:47:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-04 11:49:28 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-04 11:49:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-04 11:56:43 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-04 11:56:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-04 12:44:47 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-04 12:44:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\app\Controllers\Home.php(47): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->ingresarForm()
+#6 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\8vo\proyectoCI\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
